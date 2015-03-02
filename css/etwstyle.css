@@ -1,0 +1,65 @@
+body {
+	font-family: 'Julius Sans One', sans-serif;
+}
+div {
+	border:1px solid brown ;
+}
+
+/*header details*/
+
+.intro h1 {
+	font-size: 5em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: -0.1em;
+	margin: 1em 0.1em;
+}
+
+/*All styles that involve the examples section: this is an auxiliary section for the user to know what rooms are worked with*/
+.examples-section {
+	background-color: #646464;
+}
+.examplebar {
+	height:4em;
+
+}
+
+button, .examplebar h1 {
+border: none;
+border-radius: 1em;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+font-size: 2.5em;
+height: 2em;
+line-height: 2em;
+margin: 0.5em 1em;
+padding: 0 0.5em;
+text-align: center;
+}
+
+button {
+
+background-color: #909090;	
+}
+.examplebar h1{
+float:left;
+border: none;
+background-color:none;
+}
+.expand{
+	float:right;
+	text-transform: uppercase;
+}
+.examplelist {
+  text-align:center
+}
+.example {
+	display: inline-block;
+	width: 25em;
+	height: 25em;
+	background-color: #d2111b;
+	border-radius: 2em;
+	margin: 1em 2em;
+}
+
