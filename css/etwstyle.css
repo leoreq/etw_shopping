@@ -1,9 +1,11 @@
 body {
 	font-family: 'Julius Sans One', sans-serif;
 }
+/*
 div {
 	border:1px solid brown ;
 }
+*/
 
 /*header details*/
 
@@ -48,6 +50,7 @@ float:left;
 	float:right;
 	text-transform: uppercase;
 }
+
 .examplelist {
   text-align:center
 }
@@ -99,7 +102,7 @@ float:left;
 	position: relative;
 	width: 100%;
 	z-index: 9999;
-	padding: 0 6em;
+	padding: 0.1rem 6em;
 }
 
 .shopping-menu {
