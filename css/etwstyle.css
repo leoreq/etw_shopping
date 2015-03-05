@@ -90,3 +90,39 @@ float:left;
 .laundry{
 	background-image:url('../images/LAUNDRY.png');
 }
+
+/*This is the shopping list zone*/
+.shopping-list {
+	margin-top: -82em;
+	height:53em;
+	background-color:#D2111B;
+	position: relative;
+	width: 100%;
+	z-index: 9999;
+	padding: 0 6em;
+}
+
+.shopping-menu {
+	text-align:center;
+	width:100%;
+	background-color:#fff;
+	height:100%;
+
+}
+
+/*the last section, sponsor details and social*/
+.social {
+	text-align:center;
+	height:30em;
+	background-color: #fff;
+	position: relative;
+	width: 100%;
+	z-index: 9999;
+	padding:10%;
+}
+.social h1 {
+	font-size:2em;
+	width:40%;
+	margin-left: auto;
+	margin-right: auto;
+}
