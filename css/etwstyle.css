@@ -23,7 +23,7 @@ div {
 	height:8em;
 }
 
-button, .examplebar h1 {
+button, .examplebar h1 ,#add-items {
 border: none;
 border-radius: 1em;
 color: #fff;
@@ -105,9 +105,13 @@ float:left;
 .shopping-menu {
 	text-align:center;
 	width:100%;
-	background-color:#fff;
+
 	height:100%;
 
+}
+
+#add-items {
+	
 }
 
 /*the last section, sponsor details and social*/
@@ -126,3 +130,4 @@ float:left;
 	margin-left: auto;
 	margin-right: auto;
 }
+
