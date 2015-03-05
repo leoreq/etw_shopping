@@ -71,24 +71,24 @@ float:left;
 }
 
 .workspace {
-	background-image:url('../images/WORKSPACE.png');
+	background-image:url('../images/WORKSPACE.PNG');
 }
 
 .bathroom {
-	background-image:url('../images/BATHROOM.png');
+	background-image:url('../images/BATHROOM.PNG');
 }
 
 .bedroom{
-	background-image:url('../images/BEDROOM.png');
+	background-image:url('../images/BEDROOM.PNG');
 }
 
 .hometheatre{
-	background-image:url('../images/HOMETHEATRE.png');
+	background-image:url('../images/HOMETHEATRE.PNG');
 
 }
 
 .laundry{
-	background-image:url('../images/LAUNDRY.png');
+	background-image:url('../images/LAUNDRY.PNG');
 }
 
 /*This is the shopping list zone*/
