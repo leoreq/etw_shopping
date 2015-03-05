@@ -20,8 +20,7 @@ div {
 	background-color: #646464;
 }
 .examplebar {
-	height:4em;
-
+	height:8em;
 }
 
 button, .examplebar h1 {
@@ -39,9 +38,9 @@ text-align: center;
 }
 
 button {
-
 background-color: #909090;	
 }
+
 .examplebar h1{
 float:left;
 border: none;
