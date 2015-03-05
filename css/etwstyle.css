@@ -105,13 +105,23 @@ float:left;
 .shopping-menu {
 	text-align:center;
 	width:100%;
-
 	height:100%;
-
+}
+.shopping-menu h1  {
+	color:#fff;
+	font-size: 3em;
+	margin:1em 0;
+	text-transform: none;
 }
 
+.shopping-menu h2 {
+	color:#fff;
+	font-size: 2em;
+	margin:0.5em 0 1em 0;
+	text-transform: none;
+}
 #add-items {
-	
+	color:black;
 }
 
 /*the last section, sponsor details and social*/
