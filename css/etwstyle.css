@@ -43,8 +43,6 @@ background-color: #909090;
 
 .examplebar h1{
 float:left;
-border: none;
-background-color:none;
 }
 .expand{
 	float:right;
@@ -62,3 +60,33 @@ background-color:none;
 	margin: 1em 2em;
 }
 
+/*images in the example list*/
+.kitchen,.workspace,.bathroom,bedroom,.hometheatre,.laundry{
+	background-repeat: no-repeat;
+  	background-size:cover;
+  	background-position: center;
+}
+.kitchen {
+	background-image:url('../images/KITCHEN.png');
+}
+
+.workspace {
+	background-image:url('../images/WORKSPACE.png');
+}
+
+.bathroom {
+	background-image:url('../images/BATHROOM.png');
+}
+
+.bedroom{
+	background-image:url('../images/BEDROOM.png');
+}
+
+.hometheatre{
+	background-image:url('../images/HOMETHEATRE.png');
+
+}
+
+.laundry{
+	background-image:url('../images/LAUNDRY.png');
+}
