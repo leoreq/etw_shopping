@@ -25,7 +25,7 @@ div {
 	height:8em;
 }
 
-button, .examplebar h1 ,#add-items {
+button, .examplebar h1 ,#add-items, .inserts {
 border: none;
 border-radius: 1em;
 color: #fff;
@@ -97,9 +97,9 @@ float:left;
 
 /*This is the shopping list zone*/
 .shopping-list {
-	height:53em;
+	
 	background-color:#D2111B;
-	padding: 0.1rem 6em;
+	padding: 1rem 6em 3rem 6em;
 }
 
 .shopping-menu {
@@ -120,10 +120,16 @@ float:left;
 	margin:0.5em 0 1em 0;
 	text-transform: none;
 }
+
 #add-items {
 	color:black;
 }
 
+.inserts{
+	background-color:#fff;
+	color:black;
+	width:90%;
+}
 /*the last section, sponsor details and social*/
 .social {
 	text-align:center;
