@@ -52,7 +52,8 @@ float:left;
 }
 
 .examplelist {
-  text-align:center
+  text-align:center;
+  display:none;
 }
 .example {
 	display: inline-block;
@@ -96,12 +97,8 @@ float:left;
 
 /*This is the shopping list zone*/
 .shopping-list {
-	margin-top: -82em;
 	height:53em;
 	background-color:#D2111B;
-	position: relative;
-	width: 100%;
-	z-index: 9999;
 	padding: 0.1rem 6em;
 }
 

@@ -4,16 +4,12 @@ $(document).ready(function() {
 	console.log("ready");
 	//Upon click expand examples
 	$('.expand')
-	   .mousedown(function() {
+	   .click(function() {
 	   
 	  		console.log("the examples will be shown");
-	   		$('section.shopping-list').finish().animate(
-	  				{'margin-top':'0'},
-	  				500,
-	  				function(){
-	  					//nothing happens when it ends
-	  				}
-	  		); 
-		})
 
-});
+			$('.examplelist').toggle('drop');
+	  		$(this).text($(this).text() == 'Expand' ? 'Close' : 'Expand');
+
+	  	});
+	});
