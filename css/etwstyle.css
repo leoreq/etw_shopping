@@ -131,6 +131,16 @@ float:left;
 	width:90%;
 	height:100%;
 }
+
+.inserts-text {
+	float:left;
+}
+.inserts-delete{
+    color: #D2111B;
+    float: right;
+    cursor:pointer;
+}
+
 /*the last section, sponsor details and social*/
 .social {
 	text-align:center;
